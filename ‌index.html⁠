@@ -26,8 +26,7 @@ const { useState, useEffect, useRef, useMemo } = React;
    2. SQL Editor -> run the schema from setup-supabase.sql (see download)
    3. Project Settings -> API -> copy "Project URL" and "anon public" key
    ===================================================================== */
-const SUPABASE_URL = "https://pnehjphythkmdpjwzutb.supabase.co
-";
+const SUPABASE_URL = "https://pnehjphythkmdpjwzutb.supabase";
 const SUPABASE_ANON_KEY = "sb_publishable_rcDBjfesnQa5Ahv1D9QUoA_cw3FnO8Y";
 
 const sb = (SUPABASE_URL.startsWith("http"))
